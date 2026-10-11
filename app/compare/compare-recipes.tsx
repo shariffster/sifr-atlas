@@ -137,6 +137,6 @@ export default function CompareRecipes({initialLeftId,initialRightId}:{initialLe
     </section>
 
     <details id="comparison-method" className="compare-method"><summary>How to read this comparison</summary><div><p>Ingredients are the inputs. Each profile gives unique normalised ingredient names equal starting weights, using an authored descriptor layout. Coordinates and height scale stay fixed between recipes and views. Unknown ingredients remain visible as unmapped markers.</p><p>Source quantities are displayed as text, including repeated entries. Spelling and simple name variants are aligned for comparison; this is ingredient overlap, not measured flavour similarity. The sketches do not model proportions, preparation or serving conditions, and cannot establish sensory differences between recipes with the same ingredients.</p><p>The library contains {foods.length} indexed recipes from TheMealDB. Source-area labels offer context, not exclusive cultural ownership or a definitive version of a cuisine. A future sensory profile would need preparation records and tasting evidence.</p></div></details>
-    <footer className="compare-footer"><a href={`/?recipe=${left.id}`}><ArrowLeft size={14}/>Keep exploring the Atlas</a><p>Ingredients are the inputs. Recipes carry the context.</p><span>Sifr · 0.3.0</span></footer>
+    <footer className="compare-footer"><a href={`/?recipe=${left.id}`}><ArrowLeft size={14}/>Keep exploring the Atlas</a><p>Ingredients are the inputs. Recipes carry the context.</p><span>Sifr · 0.3.1</span></footer>
   </main>;
 }

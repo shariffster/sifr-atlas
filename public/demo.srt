@@ -1,0 +1,113 @@
+1
+00:00:00,000 --> 00:00:03,820
+Food connects places, but a shared
+ingredient never tells the whole story.
+
+2
+00:00:04,720 --> 00:00:07,460
+Sifr invites curious food explorers
+to follow those connections,
+
+3
+00:00:07,460 --> 00:00:09,000
+and look closely at the differences.
+
+4
+00:00:09,880 --> 00:00:12,360
+We begin with one hundred sourced recipes.
+
+5
+00:00:12,840 --> 00:00:16,300
+Follow coconut to Malaysia, then open
+this recorded version of nasi lemak.
+
+6
+00:00:17,040 --> 00:00:20,720
+The map shows occurrences in this
+sample, not how an entire country eats.
+
+7
+00:00:21,420 --> 00:00:23,380
+Now compare it with Thai
+curry noodle soup.
+
+8
+00:00:24,455 --> 00:00:26,060
+Coconut milk appears in both.
+
+9
+00:00:26,940 --> 00:00:28,860
+The aligned list reveals
+shared ingredients,
+
+10
+00:00:29,180 --> 00:00:30,840
+differences, and each source’s quantities.
+
+11
+00:00:31,720 --> 00:00:34,780
+Those amounts remain visible evidence;
+they do not drive this model.
+
+12
+00:00:35,520 --> 00:00:37,180
+Topography, particles and barcode
+
+13
+00:00:37,180 --> 00:00:39,660
+are three views of the same
+ingredient-derived sketch.
+
+14
+00:00:40,120 --> 00:00:44,320
+Select coconut milk, and follow it
+across both recipes and between views.
+
+15
+00:00:45,060 --> 00:00:47,100
+Now change its model weight in one recipe.
+
+16
+00:00:47,780 --> 00:00:50,980
+The shape responds. Compare
+the original, then reset.
+
+17
+00:00:51,820 --> 00:00:54,760
+This is a visual what-if,
+with equal starting weights.
+
+18
+00:00:54,880 --> 00:00:57,600
+It does not predict how quantities
+or cooking change flavour.
+
+19
+00:00:58,580 --> 00:01:01,140
+The original Sifr instrument
+explored two illustrative dishes.
+
+20
+00:01:01,600 --> 00:01:05,320
+Today’s Atlas extends that work to sourced
+recipes and ingredient connections.
+
+21
+00:01:06,280 --> 00:01:09,000
+The ambition is a shared language
+for specific prepared versions,
+
+22
+00:01:09,000 --> 00:01:11,340
+informed by tasting evidence
+and cultural context.
+
+23
+00:01:12,180 --> 00:01:16,540
+For now, this prototype gives us
+a way to begin looking together.
+
+24
+00:01:17,280 --> 00:01:20,260
+What travels, what changes,
+and what makes a dish yours?

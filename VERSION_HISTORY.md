@@ -2,6 +2,14 @@
 
 The Site uses Git source history plus immutable, archive-backed saved Site versions. Keep both. Each published iteration must create a new saved version; never replace or delete the baseline as part of normal editing.
 
+## v0.3.1 — Reliable navigation and recorded demo (11 October 2026)
+
+- Internal Atlas links use native navigation, avoiding a deployed Vinext client-navigation failure found during public browser QA.
+- Adds the narrated, captioned demonstration as a self-hosted MP4 with an accessible video page and subtitle file.
+- No recipe data, ingredient weights, visual coordinates or baseline records change.
+- v0.3.0 remains saved as new Site version 1, source `fc3d2c66ba86da14191715ff1aa46ee92e5dcc2d`.
+- The exact saved version and deployed verification of this iteration are recorded by the Sites release workflow.
+
 ## v0.3.0 — Field Atlas (11 October 2026)
 
 - Separate makeathon Site and repository, preserving the original live Sifr.

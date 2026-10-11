@@ -1,7 +1,6 @@
 'use client';
 
 import {useEffect, useMemo, useState} from 'react';
-import Link from 'next/link';
 import {ArrowRight, ArrowUpRight, Info, List, Map, Minus, Plus, Search, X} from 'lucide-react';
 import dataset from '@/lib/atlas-foods.json';
 import world from '@/lib/atlas-world.json';
@@ -89,8 +88,8 @@ export default function FieldAtlas() {
  const transform=zoom===1?'':`translate(${500-point.x*zoom},${235-point.y*zoom}) scale(${zoom})`;
  return <main className="fa-root">
   <header className="fa-header">
-   <Link className="fa-brand" href="/" aria-label="Sifr Field Atlas"><strong className="fa-wordmark">sifr<span>°</span></strong><span>Field Atlas</span></Link>
-   <nav aria-label="Atlas navigation"><span className="fa-nav-active" aria-current="page">Explore</span><Link className="fa-nav-compare" href={comparisonHref}>Compare</Link><button type="button" aria-expanded={info} aria-controls="atlas-explanation" onClick={()=>setInfo(!info)}><Info size={16}/> How to read this atlas</button></nav>
+   <a className="fa-brand" href="/" aria-label="Sifr Field Atlas"><strong className="fa-wordmark">sifr<span>°</span></strong><span>Field Atlas</span></a>
+   <nav aria-label="Atlas navigation"><span className="fa-nav-active" aria-current="page">Explore</span><a className="fa-nav-compare" href={comparisonHref}>Compare</a><button type="button" aria-expanded={info} aria-controls="atlas-explanation" onClick={()=>setInfo(!info)}><Info size={16}/> How to read this atlas</button></nav>
    <div className="fa-edition">{foods.length} recipes <span>·</span> {areas.length} places</div>
    <button type="button" className="fa-mobile-info" aria-label="How to read this atlas" aria-expanded={info} onClick={()=>setInfo(!info)}><Info size={19}/></button>
   </header>
@@ -128,6 +127,6 @@ export default function FieldAtlas() {
     {active&&<AtlasDetail food={active} foods={foods} filter={filter} onFollowIngredient={followIngredient}/>}
    </aside>
   </section>
-  <footer className="fa-footer"><span>Food crosses borders. This map shows a recipe sample, not cultural ownership.</span><span><a href={world.sourceUrl} target="_blank" rel="noreferrer">Natural Earth</a><span>·</span><Link href="/instrument">Original instrument</Link><span>·</span><a href="https://github.com/shariffster/sifr-atlas" target="_blank" rel="noreferrer">Source</a><span>·</span>v0.3.0</span></footer>
+  <footer className="fa-footer"><span>Food crosses borders. This map shows a recipe sample, not cultural ownership.</span><span><a href={world.sourceUrl} target="_blank" rel="noreferrer">Natural Earth</a><span>·</span><a href="/instrument">Original instrument</a><span>·</span><a href="/demo.html">Watch demo</a><span>·</span><a href="https://github.com/shariffster/sifr-atlas" target="_blank" rel="noreferrer">Source</a><span>·</span>v0.3.1</span></footer>
  </main>;
 }

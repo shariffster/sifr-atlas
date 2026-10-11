@@ -2,7 +2,7 @@
 
 **One ingredient. Many expressions.** A Common Ground Makeathon 2026 prototype for curious food-culture explorers. Follow ingredients across places, inspect source-linked recipe versions, and compare their ingredient lists and illustrative profiles.
 
-Release candidate: **0.3.0**. [Intended demo](https://sifr-atlas.riffster.chatgpt.site) · [Source](https://github.com/shariffster/sifr-atlas). Availability and access are verified in the release handoff, not inferred from these links.
+Release candidate: **0.3.1**. [Intended demo](https://sifr-atlas.riffster.chatgpt.site) · [Source](https://github.com/shariffster/sifr-atlas). Availability and access are verified in the release handoff, not inferred from these links.
 
 ## Run locally
 

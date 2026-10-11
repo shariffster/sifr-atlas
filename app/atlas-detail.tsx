@@ -1,7 +1,6 @@
 'use client';
 
 import {useEffect, useMemo, useRef, useState} from 'react';
-import Link from 'next/link';
 import {ArrowRight, ArrowUpRight, X} from 'lucide-react';
 import type {AtlasFood} from '@/lib/atlas-types';
 import {buildAtlasProfile, normalizeIngredient, sharedIngredientScore} from '@/lib/sifr-atlas-model';
@@ -37,7 +36,7 @@ export default function AtlasDetail({food,foods,filter,onFollowIngredient}:Props
  return <section className="fa-detail" aria-label={`${food.name} recipe snapshot`}>
   <div className="fa-detail-heading"><div><h3>{food.name}</h3><p>{food.area} · TheMealDB #{food.id.replace('mealdb-','')}</p></div><a aria-label={`Open source recipe for ${food.name}`} href={food.sourceUrl} target="_blank" rel="noreferrer"><ArrowUpRight size={19}/></a></div>
   <p className="fa-version-note">One recorded version, not a definitive cultural standard.</p>
-  {related&&<Link className="fa-compare-link" href={`/compare?left=${encodeURIComponent(food.id)}&right=${encodeURIComponent(related.id)}`}><span><strong>Compare this recipe</strong><small>with {related.name}</small></span><ArrowRight size={19}/></Link>}
+  {related&&<a className="fa-compare-link" href={`/compare?left=${encodeURIComponent(food.id)}&right=${encodeURIComponent(related.id)}`}><span><strong>Compare this recipe</strong><small>with {related.name}</small></span><ArrowRight size={19}/></a>}
   <div className="fa-detail-tabs" role="tablist" aria-label="Recipe information">
    <button type="button" id="recipe-input-tab" role="tab" aria-selected={tab==='ingredients'} aria-controls="recipe-input-panel" className={tab==='ingredients'?'active':''} onClick={()=>setTab('ingredients')}>Listed ingredients <span>{food.ingredients.length}</span></button>
    <button type="button" id="recipe-profile-tab" role="tab" aria-selected={tab==='profile'} aria-controls="recipe-profile-panel" className={tab==='profile'?'active':''} onClick={()=>setTab('profile')}>Derived profile</button>

@@ -1,6 +1,6 @@
 # Sifr Atlas — Common Ground Makeathon 2026
 
-Release candidate: **0.3.0**. Build, deployment and judge-access verification are recorded separately; this file does not establish a published release.
+Release candidate: **0.3.1**. Build, deployment and judge-access verification are recorded separately; this file does not establish a published release.
 
 ## What changed today
 
@@ -18,10 +18,10 @@ The ingredient-derived sketch assigns equal initial drawing contributions and fi
 - Separate source repository: https://github.com/shariffster/sifr-atlas
 - Existing Sifr, preserved: https://sifr.riffster.chatgpt.site
 
-The new Site and repository were initially created private. The release checklist must record accessible judge-facing links before submission.
+The user authorised both new destinations to be public. v0.3.0 was publicly deployed; this iteration fixes a production navigation issue and adds the recorded demonstration. Exact deployment and judge-access evidence are retained in the release handoff.
 
 ## Credits
 
-Shariff Raffi directed the product, cultural framing, scope and design selection. Codex and delegated agents supported research, design exploration, implementation and verification. Mobbin supplied interface references; MagicPath hosted three design prototypes. Image generation supplied composition studies. Sites hosts the intended release. ElevenLabs narration is planned for the separate demo package; generation and use must be recorded when completed.
+Shariff Raffi directed the product, cultural framing, scope and design selection. Codex and delegated agents supported research, design exploration, implementation and verification. Mobbin supplied interface references; MagicPath hosted three design prototypes. Image generation supplied composition studies. Sites hosts the intended release. ElevenLabs generated the Brendan library-voice narration for the recorded demo. Captions were aligned to the actual audio.
 
 TheMealDB supplied the bounded educational recipe sample. Natural Earth supplied public-domain map geometry. No third-party food photographs or recipe instructions are included.
